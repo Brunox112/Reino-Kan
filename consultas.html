@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav class="consultas">
+        <div class="menu__imagentitulo">
+            <img src="./Imagenes/logonuevo.jpeg" alt="logo" width="100px" title="Logo" class="menu__imagen">
+            <h1 class="menu__titulo">Reino Kan</h1>
+            <div class="menu__ubihorarios">
+                <div class="menu__ubicacion">
+                    <img src="./Imagenes/logoubicacionnuevo.png" alt="IconoUbicacion" class="menu__imagentitulo__ubicacion">
+                    <a class="logo__ubicacion" href="https://goo.gl/maps/98okBayQwgCW4yQHA">Colombres 1447 Adrogue</a>
+                </div>
+                <div class="menu__horarios">
+                    <img src="./Imagenes/iconocalendario.png" alt="calendario" class="menu__horarios__imagen">
+                    <h6 class="menu__horarios__item">Martes a Sabado de 9 a 17hs</h6>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <nav class="menu">
+                <ul class="menu__navegacion">
+                    <li class="menu__item">
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./turnos.html">Turnos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="menu__item active">
+                        <a href="./consultas.html">Consultas</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav>
+            <form id="formulario" class="formulario__consultas">
+                <label for="Nombre">
+                    Nombre
+                    <input type="text" id="Nombre" required class="nombre__formulario">
+                </label>
+                <label for="Apellido">
+                    Apellido
+                    <input type="text" id="Apellido" required class="apellido__formulario">
+                </label>
+                <label for="E-mail">
+                    E-mail
+                    <input type="email" id="E-mail" required class="email__formulario">
+                </label>
+                <label for="Dejanos tu Consulta">
+                    Dejanos tu Consulta
+                    <textarea name="" id="Dejanos tu consulta" cols="30" rows="10" required
+                        class="texto__formulario"></textarea>
+                </label>
+
+                <button type="submit" class="boton__enviarconsultas">Enviar</button>
+                <button type="reset" class="reset__consultas">Reset</button>
+            </form>
+        </nav>
+
+</body>
+
+</html>
