@@ -103,11 +103,8 @@
 }
 
 
-.menu {
-    list-style-type: none;
-    background-color: rgb(0, 0, 0);
 
-}
+
 
 .menu__titulo {
     display: inline-block;
@@ -340,8 +337,13 @@
 
 .fondo__imagen {
     background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
-    width: 100%;
 }
+
+.fondo__imagen__consultas {
+    background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
+    height: 70vh;
+}
+
 
 .titulo__seguinos {
     color: rgb(240, 147, 8);
@@ -390,11 +392,11 @@
 }
 
 .equipo__parrafo {
-    color: rgb(240, 147, 8);
-    width: 300px;
-    padding-left: 20px;
-    font-size: 27px;
+    width: 400px;
+    padding-left: 30px;
+    font-size: 32px;
     letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.692);
 }
 
 .equipo__imagen {
@@ -526,7 +528,6 @@
     padding-top: 40px;
     padding-left: 20px;
     display: inline-block;
-    background-color: rgb(236, 160, 20);
     letter-spacing: 1px;
 }
 
@@ -543,22 +544,22 @@
 
 .nombre__formulario {
     background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .apellido__formulario {
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: white;
 }
 
 .email__formulario {
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: white;
 }
 
 .texto__formulario {
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    
 }
 
 .reset__consultas {
@@ -573,11 +574,21 @@
     letter-spacing: 3px;
 }
 
+.fondo__imagen__turnos {
+    background-image: url(./Imagenes/fondo\ \ enredadera\ img.jpg);
+    height: 68vh;
+}
+
 .nuestrasredes__titulo {
     color: white;
     font-size: 35px;
     padding: 10px;
     letter-spacing: 3px;
+}
+
+.fondo__imagen__contacto {
+    height: 68vh;
+    background-image: url(./Imagenes/fondo\ \ enredadera\ img.jpg);
 }
 
 .redes__contacto a,
