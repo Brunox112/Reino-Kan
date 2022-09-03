@@ -278,20 +278,24 @@
   padding-left: 25px;
   letter-spacing: 2px;
   text-decoration: none;
+  height: 30px;
 }
-.fondo__imagen .titulo__seguinos .menu__redes a {
+.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes {
+  height: 30px;
+}
+.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes a {
   color: rgb(240, 147, 8);
   padding: 5px;
   list-style-position: inside;
   text-decoration: none;
   font-weight: bold;
 }
-.fondo__imagen .titulo__seguinos .menu__redes a .imagen__facebook {
-  width: 78px;
+.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__facebook {
+  height: 100%;
   padding-left: 0px;
 }
-.fondo__imagen .titulo__seguinos .menu__redes a .imagen__instagram {
-  width: 80px;
+.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__instagram {
+  height: 100%;
 }
 .fondo__imagen .titulo__equipo {
   color: rgb(240, 147, 8);
@@ -424,41 +428,38 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.consultas {
-  background-color: white;
-}
-.consultas .fondo__imagen__consultas {
+.fondo__imagen__consultas {
   background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
   height: 70vh;
 }
-.consultas .fondo__imagen__consultas .formulario__consultas {
+.fondo__imagen__consultas .formulario__consultas {
   font-size: 40px;
   padding-top: 40px;
   padding-left: 20px;
   display: inline-block;
   letter-spacing: 1px;
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .boton__enviarconsultas {
+.fondo__imagen__consultas .formulario__consultas .boton__enviarconsultas {
   color: rgb(228, 142, 31);
   background-color: rgb(255, 255, 255);
   font-size: 30px;
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .nombre__formulario {
+.fondo__imagen__consultas .formulario__consultas .nombre__formulario {
   background-color: white;
   color: rgb(255, 255, 255);
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .apellido__formulario {
+.fondo__imagen__consultas .formulario__consultas .apellido__formulario {
   color: rgb(255, 255, 255);
   background-color: white;
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .email__formulario {
+.fondo__imagen__consultas .formulario__consultas .email__formulario {
   color: rgb(255, 255, 255);
   background-color: white;
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .texto__formulario {
+.fondo__imagen__consultas .formulario__consultas .texto__formulario {
   color: rgb(255, 255, 255);
 }
-.consultas .fondo__imagen__consultas .formulario__consultas .reset__consultas {
+.fondo__imagen__consultas .formulario__consultas .reset__consultas {
   color: rgb(228, 142, 31);
   background-color: white;
   font-size: 30px;
@@ -643,4 +644,24 @@
     padding-top: 20px;
     margin-left: 109px;
   }
+}
+.menu__footer {
+  background-color: black;
+}
+.menu__footer .imagenlogo__footer {
+  width: 150px;
+}
+.menu__footer .logoinstagram__footer {
+  width: 80px;
+}
+.menu__footer .logofacebook__footer {
+  width: 80px;
+}
+.menu__footer .horario__footer {
+  width: 200px;
+  padding-top: 30px;
+}
+.menu__footer .direccion__footer {
+  width: 200px;
+  padding-top: 30px;
 }/*# sourceMappingURL=estilo.css.map */

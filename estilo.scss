@@ -332,18 +332,22 @@
       padding-left: 25px;
       letter-spacing: 2px;
       text-decoration: none;
-      a {
-        color: rgb(240, 147, 8);
-        padding: 5px;
-        list-style-position: inside;
-        text-decoration: none;
-        font-weight: bold;
+      height: 30px;
+      .imagenes__redes {
+        height: 30px;
+        a {
+          color: rgb(240, 147, 8);
+          padding: 5px;
+          list-style-position: inside;
+          text-decoration: none;
+          font-weight: bold;
+        }
         .imagen__facebook {
-          width: 78px;
+          height: 100%;
           padding-left: 0px;
         }
         .imagen__instagram {
-          width: 80px;
+          height: 100%;
         }
       }
     }
@@ -480,58 +484,55 @@
     padding-bottom: 100px;
     padding-top: 30px;
     .caja__amigos {
+      border: 3px solid white;
+      margin: 20px 20px 20px 20px;
+      &:hover {
         border: 3px solid white;
         margin: 20px 20px 20px 20px;
-        &:hover {
-            border: 3px solid white;
-            margin: 20px 20px 20px 20px;
-            border: 3px solid white;
-            transform: scale(1.3) translateY(-40px);
-            transition: all 0.5s;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-              rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-              rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-          }
+        border: 3px solid white;
+        transform: scale(1.3) translateY(-40px);
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
       }
+    }
   }
 }
 
-.consultas {
-  background-color: white;
-  .fondo__imagen__consultas {
-    background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
-    height: 70vh;
-    .formulario__consultas {
-      font-size: 40px;
-      padding-top: 40px;
-      padding-left: 20px;
-      display: inline-block;
-      letter-spacing: 1px;
-      .boton__enviarconsultas {
-        color: rgb(228, 142, 31);
-        background-color: rgb(255, 255, 255);
-        font-size: 30px;
-      }
-      .nombre__formulario {
-        background-color: white;
-        color: rgb(255, 255, 255);
-      }
-      .apellido__formulario {
-        color: rgb(255, 255, 255);
-        background-color: white;
-      }
-      .email__formulario {
-        color: rgb(255, 255, 255);
-        background-color: white;
-      }
-      .texto__formulario {
-        color: rgb(255, 255, 255);
-      }
-      .reset__consultas {
-        color: rgb(228, 142, 31);
-        background-color: white;
-        font-size: 30px;
-      }
+.fondo__imagen__consultas {
+  background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
+  height: 70vh;
+  .formulario__consultas {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    .boton__enviarconsultas {
+      color: rgb(228, 142, 31);
+      background-color: rgb(255, 255, 255);
+      font-size: 30px;
+    }
+    .nombre__formulario {
+      background-color: white;
+      color: rgb(255, 255, 255);
+    }
+    .apellido__formulario {
+      color: rgb(255, 255, 255);
+      background-color: white;
+    }
+    .email__formulario {
+      color: rgb(255, 255, 255);
+      background-color: white;
+    }
+    .texto__formulario {
+      color: rgb(255, 255, 255);
+    }
+    .reset__consultas {
+      color: rgb(228, 142, 31);
+      background-color: white;
+      font-size: 30px;
     }
   }
 }
@@ -572,7 +573,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 480px) {
   .menu__amigos {
@@ -743,3 +743,34 @@
     margin-left: 109px;
   }
 }
+
+.menu__footer {
+  background-color: black;
+  .imagenlogo__footer {
+    width: 150px;
+  }
+  .logoinstagram__footer {
+    width: 80px;
+  }
+  .logofacebook__footer {
+    width: 80px;
+  }
+  .horario__footer {
+    width: 200px;
+    padding-top: 30px;
+  }
+  .direccion__footer {
+    width: 200px;
+    padding-top: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
