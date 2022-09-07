@@ -264,7 +264,7 @@
   }
 }
 .fondo__imagen {
-  background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
+  background-image: url(./Imagenes/fondo\ animales.jpg);
 }
 .fondo__imagen .titulo__seguinos {
   color: rgb(240, 147, 8);
@@ -324,8 +324,8 @@
 .fondo__imagen .menu__equipo .equipo__imagen {
   width: 50%;
   margin: 50px 20px 50px 20px;
-  border-radius: 10px;
-  border: 3px solid white;
+  border-radius: 20px;
+  border: 4px solid rgb(0, 0, 0);
 }
 .fondo__imagen .menu__amigos {
   display: grid;
@@ -429,24 +429,28 @@
 }
 
 .fondo__imagen__consultas {
-  background-image: url(/Imagenes/fondo\ \ enredadera\ img.jpg);
-  height: 70vh;
+  background-image: url(./Imagenes/fondo\ animales.jpg);
+  height: 130vh;
 }
 .fondo__imagen__consultas .formulario__consultas {
-  font-size: 40px;
-  padding-top: 40px;
-  padding-left: 20px;
-  display: inline-block;
-  letter-spacing: 1px;
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
+  height: 500px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-top: 300px;
+  font-size: 30px;
+  color: rgb(224, 151, 54);
 }
 .fondo__imagen__consultas .formulario__consultas .boton__enviarconsultas {
-  color: rgb(228, 142, 31);
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   font-size: 30px;
 }
 .fondo__imagen__consultas .formulario__consultas .nombre__formulario {
-  background-color: white;
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 254, 254);
+  color: rgb(255, 8, 8);
 }
 .fondo__imagen__consultas .formulario__consultas .apellido__formulario {
   color: rgb(255, 255, 255);
@@ -460,13 +464,13 @@
   color: rgb(255, 255, 255);
 }
 .fondo__imagen__consultas .formulario__consultas .reset__consultas {
-  color: rgb(228, 142, 31);
-  background-color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   font-size: 30px;
 }
 
 .fondo__imagen__turnos {
-  background-image: url(./Imagenes/fondo\ \ enredadera\ img.jpg);
+  background-image: url(./Imagenes/fondo\ animales.jpg);
   height: 68vh;
 }
 .fondo__imagen__turnos .titulo__turnos {
@@ -477,7 +481,7 @@
 
 .fondo__imagen__contacto {
   height: 68vh;
-  background-image: url(./Imagenes/fondo\ \ enredadera\ img.jpg);
+  background-image: url(./Imagenes/fondo\ animales.jpg);
 }
 .fondo__imagen__contacto .nuestrasredes__titulo {
   color: white;
