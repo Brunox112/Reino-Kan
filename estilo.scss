@@ -273,7 +273,7 @@
   background-color: rgb(238, 154, 57);
   .menu__item {
     display: inline-block;
-    margin: 0px 0px 0px 20px;
+    padding: 0px 20px 0px 0px;
     font-size: 25px;
     letter-spacing: 1px;
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
@@ -319,42 +319,28 @@
   }
 }
 
+@mixin borde_img_amigos($border, $borderradius) {
+  border: $border;
+  border-radius: $borderradius;
+}
+
 .fondo__imagen {
   background-image: url(./Imagenes/fondo\ animales.jpg);
   .titulo__seguinos {
-    color: rgb(240, 147, 8);
-    padding: 10px;
-    font-size: 47px;
-    letter-spacing: 2px;
+    font-size: 45px;
+    letter-spacing: 3px;
     .menu__redes {
-      padding-bottom: 20px;
-      font-size: 20px;
-      padding-left: 25px;
-      letter-spacing: 2px;
-      text-decoration: none;
-      height: 30px;
       .imagenes__redes {
-        height: 30px;
-        a {
-          color: rgb(240, 147, 8);
-          padding: 5px;
-          list-style-position: inside;
-          text-decoration: none;
-          font-weight: bold;
-        }
-        .imagen__facebook {
-          height: 100%;
-          padding-left: 0px;
-        }
         .imagen__instagram {
           height: 100%;
+        }
+        .imagen__facebook {
+          height: 100px;
         }
       }
     }
   }
   .titulo__equipo {
-    color: rgb(240, 147, 8);
-    padding: 10px 0px 10px 20px;
     font-size: 45px;
     letter-spacing: 3px;
   }
@@ -373,7 +359,8 @@
       padding-left: 30px;
       font-size: 32px;
       letter-spacing: 1px;
-      background-color: rgba(0, 0, 0, 0.692);
+      background-color: rgb(32, 31, 31);
+      border-radius: 15px;
     }
     .equipo__imagen {
       width: 50%;
@@ -393,13 +380,13 @@
       "caja4 caja5 caja6";
     .caja1 {
       grid-area: caja1;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(3, 3, 3), 20px);
+
       &:hover {
         grid-area: caja1;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-40px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 255, 255);
+        transform: scale(1.7) translateY(-40px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -407,13 +394,12 @@
     }
     .caja2 {
       grid-area: caja2;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(0, 0, 0), 20px);
       &:hover {
         grid-area: caja2;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-40px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 255, 255);
+        transform: scale(1.7) translateY(-40px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -421,13 +407,12 @@
     }
     .caja3 {
       grid-area: caja3;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(3, 3, 3), 20px);
       &:hover {
         grid-area: caja3;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-40px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 253, 253);
+        transform: scale(1.7) translateY(-40px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -435,13 +420,12 @@
     }
     .caja4 {
       grid-area: caja4;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(3, 3, 3), 20px);
       &:hover {
         grid-area: caja4;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-40px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 255, 255);
+        transform: scale(1.7) translateY(-40px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -449,13 +433,12 @@
     }
     .caja5 {
       grid-area: caja5;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(3, 3, 3), 20px);
       &:hover {
         grid-area: caja5;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-20px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 255, 255);
+        transform: scale(1.4) translateY(-10px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -463,13 +446,12 @@
     }
     .caja6 {
       grid-area: caja6;
-      border: 3px solid rgba(0, 0, 0, 0.575);
-      border-radius: 5px;
+      @include borde_img_amigos(3px solid rgb(3, 3, 3), 20px);
       &:hover {
         grid-area: caja6;
-        border: 3px solid rgba(0, 0, 0, 0.575);
-        transform: scale(1.3) translateY(-40px);
-        transition: transform 0.5s;
+        border: 3px solid rgb(255, 255, 255);
+        transform: scale(1.7) translateY(-40px);
+        transition: all 0.7s;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -484,7 +466,8 @@
     padding-bottom: 100px;
     padding-top: 30px;
     .caja__amigos {
-      border: 3px solid white;
+      border: 3px solid rgb(0, 0, 0);
+      border-radius: 20px;
       margin: 20px 20px 20px 20px;
       &:hover {
         border: 3px solid white;
@@ -513,7 +496,7 @@
     padding-top: 300px;
     font-size: 30px;
     color: rgb(224, 151, 54);
-    
+
     .boton__enviarconsultas {
       color: rgb(255, 255, 255);
       background-color: rgb(0, 0, 0);
@@ -521,18 +504,18 @@
     }
     .nombre__formulario {
       background-color: rgb(255, 254, 254);
-      color: rgb(255, 8, 8);
+      color: rgb(0, 0, 0);
     }
     .apellido__formulario {
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       background-color: white;
     }
     .email__formulario {
-      color: rgb(255, 255, 255);
+      color: rgb(3, 3, 3);
       background-color: white;
     }
     .texto__formulario {
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
     }
     .reset__consultas {
       color: rgb(255, 255, 255);
@@ -547,7 +530,7 @@
   height: 68vh;
   .titulo__turnos {
     font-size: 40px;
-    margin: 50px 30px 50px 30px;
+    padding-top: 30px;
     letter-spacing: 3px;
   }
 }
@@ -749,16 +732,33 @@
   }
 }
 
+$fondo_footer: (
+  footer: rgb(15, 15, 15),
+);
+
+@each $fondofooter, $color in $fondo_footer {
+  .menu__#{$fondofooter} {
+    background-color: $color;
+  }
+}
 .menu__footer {
-  background-color: black;
+  
   .imagenlogo__footer {
     width: 150px;
   }
   .logoinstagram__footer {
     width: 80px;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: rgb(228, 51, 95);
+    }
   }
   .logofacebook__footer {
-    width: 80px;
+    @extend .logoinstagram__footer;
+    &:hover {
+      background-color: blue;
+    }
   }
   .horario__footer {
     width: 200px;
@@ -769,13 +769,3 @@
     padding-top: 30px;
   }
 }
-
-
-
-
-
-
-
-
-
-

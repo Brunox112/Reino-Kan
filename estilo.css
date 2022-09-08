@@ -225,7 +225,7 @@
 }
 .menu__navegacion .menu__item {
   display: inline-block;
-  margin: 0px 0px 0px 20px;
+  padding: 0px 20px 0px 0px;
   font-size: 25px;
   letter-spacing: 1px;
   -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -267,39 +267,16 @@
   background-image: url(./Imagenes/fondo\ animales.jpg);
 }
 .fondo__imagen .titulo__seguinos {
-  color: rgb(240, 147, 8);
-  padding: 10px;
-  font-size: 47px;
-  letter-spacing: 2px;
-}
-.fondo__imagen .titulo__seguinos .menu__redes {
-  padding-bottom: 20px;
-  font-size: 20px;
-  padding-left: 25px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  height: 30px;
-}
-.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes {
-  height: 30px;
-}
-.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes a {
-  color: rgb(240, 147, 8);
-  padding: 5px;
-  list-style-position: inside;
-  text-decoration: none;
-  font-weight: bold;
-}
-.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__facebook {
-  height: 100%;
-  padding-left: 0px;
+  font-size: 45px;
+  letter-spacing: 3px;
 }
 .fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__instagram {
   height: 100%;
 }
+.fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__facebook {
+  height: 100px;
+}
 .fondo__imagen .titulo__equipo {
-  color: rgb(240, 147, 8);
-  padding: 10px 0px 10px 20px;
   font-size: 45px;
   letter-spacing: 3px;
 }
@@ -319,7 +296,8 @@
   padding-left: 30px;
   font-size: 32px;
   letter-spacing: 1px;
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgb(32, 31, 31);
+  border-radius: 15px;
 }
 .fondo__imagen .menu__equipo .equipo__imagen {
   width: 50%;
@@ -337,74 +315,74 @@
 }
 .fondo__imagen .menu__amigos .caja1 {
   grid-area: caja1;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(3, 3, 3);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja1:hover {
   grid-area: caja1;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-40px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.7) translateY(-40px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__amigos .caja2 {
   grid-area: caja2;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja2:hover {
   grid-area: caja2;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-40px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.7) translateY(-40px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__amigos .caja3 {
   grid-area: caja3;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(3, 3, 3);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja3:hover {
   grid-area: caja3;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-40px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 253, 253);
+  transform: scale(1.7) translateY(-40px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__amigos .caja4 {
   grid-area: caja4;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(3, 3, 3);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja4:hover {
   grid-area: caja4;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-40px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.7) translateY(-40px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__amigos .caja5 {
   grid-area: caja5;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(3, 3, 3);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja5:hover {
   grid-area: caja5;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-20px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.4) translateY(-10px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__amigos .caja6 {
   grid-area: caja6;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  border-radius: 5px;
+  border: 3px solid rgb(3, 3, 3);
+  border-radius: 20px;
 }
 .fondo__imagen .menu__amigos .caja6:hover {
   grid-area: caja6;
-  border: 3px solid rgba(0, 0, 0, 0.575);
-  transform: scale(1.3) translateY(-40px);
-  transition: transform 0.5s;
+  border: 3px solid rgb(255, 255, 255);
+  transform: scale(1.7) translateY(-40px);
+  transition: all 0.7s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fondo__imagen .menu__galeria {
@@ -416,7 +394,8 @@
   padding-top: 30px;
 }
 .fondo__imagen .menu__galeria .caja__amigos {
-  border: 3px solid white;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
   margin: 20px 20px 20px 20px;
 }
 .fondo__imagen .menu__galeria .caja__amigos:hover {
@@ -450,18 +429,18 @@
 }
 .fondo__imagen__consultas .formulario__consultas .nombre__formulario {
   background-color: rgb(255, 254, 254);
-  color: rgb(255, 8, 8);
+  color: rgb(0, 0, 0);
 }
 .fondo__imagen__consultas .formulario__consultas .apellido__formulario {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   background-color: white;
 }
 .fondo__imagen__consultas .formulario__consultas .email__formulario {
-  color: rgb(255, 255, 255);
+  color: rgb(3, 3, 3);
   background-color: white;
 }
 .fondo__imagen__consultas .formulario__consultas .texto__formulario {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fondo__imagen__consultas .formulario__consultas .reset__consultas {
   color: rgb(255, 255, 255);
@@ -475,7 +454,7 @@
 }
 .fondo__imagen__turnos .titulo__turnos {
   font-size: 40px;
-  margin: 50px 30px 50px 30px;
+  padding-top: 30px;
   letter-spacing: 3px;
 }
 
@@ -650,16 +629,21 @@
   }
 }
 .menu__footer {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 }
+
 .menu__footer .imagenlogo__footer {
   width: 150px;
 }
-.menu__footer .logoinstagram__footer {
+.menu__footer .logoinstagram__footer, .menu__footer .logofacebook__footer {
   width: 80px;
+  border-radius: 20px;
 }
-.menu__footer .logofacebook__footer {
-  width: 80px;
+.menu__footer .logoinstagram__footer:hover, .menu__footer .logofacebook__footer:hover {
+  background-color: rgb(228, 51, 95);
+}
+.menu__footer .logofacebook__footer:hover {
+  background-color: blue;
 }
 .menu__footer .horario__footer {
   width: 200px;
