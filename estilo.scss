@@ -564,8 +564,16 @@
 
 @media screen and (max-width: 480px) {
   .menu__amigos {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    place-items: center;
+    padding-bottom: 100px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "caja1 caja2 "
+      "caja3 caja4 "
+      "caja5 caja6 ";
   }
 
   .menu__imagentitulo {
@@ -617,19 +625,6 @@
     width: 4%;
     padding-bottom: 14px;
     background-color: white;
-  }
-
-  .menu__amigos {
-    display: grid;
-    place-items: center;
-    padding-bottom: 100px;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "caja1 caja2 "
-      "caja3 caja4 "
-      "caja5 caja6 ";
   }
 
   .caja1 {
@@ -742,7 +737,6 @@ $fondo_footer: (
   }
 }
 .menu__footer {
-  
   .imagenlogo__footer {
     width: 150px;
   }
