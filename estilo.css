@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Dancing+Script:wght@700 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -268,6 +270,7 @@
 }
 .fondo__imagen .titulo__seguinos {
   font-size: 45px;
+  font-family: "Courgette", cursive;
   letter-spacing: 3px;
 }
 .fondo__imagen .titulo__seguinos .menu__redes .imagenes__redes .imagen__instagram {
@@ -279,12 +282,14 @@
 .fondo__imagen .titulo__equipo {
   font-size: 45px;
   letter-spacing: 3px;
+  font-family: "Courgette", cursive;
 }
 .fondo__imagen .amigos__titulo {
   padding: 10px 0px 10px 20px;
   font-size: 45px;
   letter-spacing: 3px;
   color: rgb(240, 147, 8);
+  font-family: "Courgette", cursive;
 }
 .fondo__imagen .menu__equipo {
   display: flex;
@@ -292,12 +297,13 @@
   justify-content: space-around;
 }
 .fondo__imagen .menu__equipo .equipo__parrafo {
-  width: 400px;
+  width: 600px;
   padding-left: 30px;
-  font-size: 32px;
+  font-size: 43px;
   letter-spacing: 1px;
   background-color: rgb(32, 31, 31);
   border-radius: 15px;
+  font-family: "Ms Madi", cursive;
 }
 .fondo__imagen .menu__equipo .equipo__imagen {
   width: 50%;
@@ -453,9 +459,25 @@
   height: 68vh;
 }
 .fondo__imagen__turnos .titulo__turnos {
-  font-size: 40px;
+  color: rgb(230, 144, 17);
+  font-size: 31px;
   padding-top: 30px;
   letter-spacing: 3px;
+  background-color: rgba(20, 20, 20, 0.863);
+  font-family: "Courgette", cursive;
+}
+.fondo__imagen__turnos .servicio__turnos {
+  background-color: rgba(20, 20, 20, 0.863);
+  color: rgb(230, 144, 17);
+  font-size: 35px;
+  font-family: "Courgette", cursive;
+}
+.fondo__imagen__turnos .lista__turnos {
+  background-color: rgba(20, 20, 20, 0.863);
+  color: rgb(230, 144, 17);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .fondo__imagen__contacto {
@@ -642,10 +664,18 @@
   background-color: blue;
 }
 .menu__footer .horario__footer {
-  width: 200px;
-  padding-top: 30px;
+  padding-top: 10px;
+}
+.menu__footer .horario__footer .titulo__horariofooter {
+  font-size: 30px;
+  -webkit-text-decoration: rgb(219, 136, 26) underline;
+          text-decoration: rgb(219, 136, 26) underline;
 }
 .menu__footer .direccion__footer {
-  width: 200px;
-  padding-top: 30px;
+  padding-top: 10px;
+}
+.menu__footer .direccion__footer .titulo__direfooter {
+  font-size: 30px;
+  -webkit-text-decoration: rgb(219, 136, 26) underline;
+          text-decoration: rgb(219, 136, 26) underline;
 }/*# sourceMappingURL=estilo.css.map */
