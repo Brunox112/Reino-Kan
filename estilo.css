@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Dancing+Script:wght@700 & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
@@ -6,7 +7,6 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
 }
 
 .menu__imagentitulo {
@@ -44,6 +44,7 @@
   letter-spacing: 2px;
   font-size: 17px;
   padding-top: 20px;
+  font-family: "Oswald", sans-serif;
 }
 .menu__imagentitulo .menu__horarios__imagen {
   width: 4%;
@@ -66,6 +67,7 @@
 }
 .menu__imagentitulo .menu__ubihorarios {
   background-color: white;
+  font-family: "Oswald", sans-serif;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
@@ -227,6 +229,7 @@
 }
 .menu__navegacion .menu__item {
   display: inline-block;
+  font-family: "Oswald", sans-serif;
   padding: 0px 20px 0px 0px;
   font-size: 25px;
   letter-spacing: 1px;
@@ -413,50 +416,8 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.fondo__imagen__consultas {
-  background-image: url(./Imagenes/fondo\ animales.jpg);
-  height: 130vh;
-}
-.fondo__imagen__consultas .formulario__consultas {
-  display: grid;
-  justify-content: center;
-  align-content: space-around;
-  height: 500px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  padding-top: 300px;
-  font-size: 30px;
-  color: rgb(224, 151, 54);
-}
-.fondo__imagen__consultas .formulario__consultas .boton__enviarconsultas {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  font-size: 30px;
-}
-.fondo__imagen__consultas .formulario__consultas .nombre__formulario {
-  background-color: rgb(255, 254, 254);
-  color: rgb(0, 0, 0);
-}
-.fondo__imagen__consultas .formulario__consultas .apellido__formulario {
-  color: rgb(0, 0, 0);
-  background-color: white;
-}
-.fondo__imagen__consultas .formulario__consultas .email__formulario {
-  color: rgb(3, 3, 3);
-  background-color: white;
-}
-.fondo__imagen__consultas .formulario__consultas .texto__formulario {
-  color: rgb(0, 0, 0);
-}
-.fondo__imagen__consultas .formulario__consultas .reset__consultas {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  font-size: 30px;
-}
-
 .fondo__imagen__turnos {
   background-image: url(./Imagenes/fondo\ animales.jpg);
-  height: 68vh;
 }
 .fondo__imagen__turnos .titulo__turnos {
   color: rgb(230, 144, 17);
@@ -473,29 +434,35 @@
   font-family: "Courgette", cursive;
 }
 .fondo__imagen__turnos .lista__turnos {
+  font-family: "Gloria Hallelujah", cursive;
   background-color: rgba(20, 20, 20, 0.863);
   color: rgb(230, 144, 17);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px 20px 20px 40px;
 }
 
 .fondo__imagen__contacto {
-  height: 68vh;
   background-image: url(./Imagenes/fondo\ animales.jpg);
 }
 .fondo__imagen__contacto .nuestrasredes__titulo {
-  color: white;
-  font-size: 35px;
+  font-family: "Courgette", cursive;
+  color: rgb(230, 141, 26);
+  background-color: rgba(0, 0, 0, 0.842);
+  font-size: 40px;
   padding: 10px;
   letter-spacing: 3px;
 }
 .fondo__imagen__contacto .redes__contacto {
+  font-family: "Oswald", sans-serif;
   padding-bottom: 20px;
   font-size: 30px;
   padding-left: 25px;
   letter-spacing: 1px;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.856);
+  color: rgb(245, 146, 18);
   padding: 5px;
   list-style-position: inside;
   text-decoration: none;
@@ -670,6 +637,7 @@
   font-size: 30px;
   -webkit-text-decoration: rgb(219, 136, 26) underline;
           text-decoration: rgb(219, 136, 26) underline;
+  font-family: "Oswald", sans-serif;
 }
 .menu__footer .direccion__footer {
   padding-top: 10px;
@@ -678,4 +646,5 @@
   font-size: 30px;
   -webkit-text-decoration: rgb(219, 136, 26) underline;
           text-decoration: rgb(219, 136, 26) underline;
+  font-family: "Oswald", sans-serif;
 }/*# sourceMappingURL=estilo.css.map */
